@@ -1,0 +1,43 @@
+baseURL = "https://hareeshpc.github.io/"
+languageCode = "en-us"
+title = "Hareesh Puthalath"
+
+theme="archie"
+
+# Number of characters to show in summary.
+summaryLength = 20
+
+
+[params]
+    # Blog subtitle which appears below blog title. Supports markdown.
+    subtitle = "A Personal blog"
+
+# Social Tags
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/hareeshpc"
+
+
+# Main menu Items
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
